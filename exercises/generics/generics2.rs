@@ -2,7 +2,6 @@
 // Rewrite it using generics so that it supports wrapping ANY type.
 
 // I AM NOT DONE
-
 struct Wrapper {
     value: u32
 }
@@ -19,7 +18,7 @@ mod tests {
 
     #[test]
     fn store_u32_in_wrapper() {
-        assert_eq!(Wrapper::new(42).value, 42);
+        assert_eq!(Wrapper::new(42).value,  42);
     }
 
     #[test]
